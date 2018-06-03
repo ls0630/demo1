@@ -1,32 +1,20 @@
-{  
-  "name": "ls0630/demo1",  
-  "description": "lishuai test project",  
-  "keywords": [  
-    "lishuai",  
-    "phptest"  
-  ],  
-  "homepage": "https://github.com/ls0630/demo1",  
-  "type": "git",  
-  "license": "lishuai",  
-  "support": {  
-    "source": "https://github.com/ls0630/demo1"  
-  },  
-  "authors": [  
-    {  
-      "name": "mr.li",  
-      "email": "858886985@qq.com"  
-    }  
-  ],  
-  "minimum-stability": "stable",  
-  "require": {  
-    "php": ">=5.4.0"
-  },  
-  "autoload": {  
-    "psr-4": {  
-      "terry\\": ""  
-    }  
-  },  
-  "config": {  
-    "process-timeout": 1800  
-  }  
-}  
+{
+    "name": "ls0630/demo1",
+    "description": "The lishuai test project.",
+    "keywords": ["phptest", "jade"],
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
